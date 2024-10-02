@@ -1,0 +1,3 @@
+install: 
+FILE="-Dfile=zylibuiandroid-debug-0.1.12.aar" 
+mvn install:install-file $FILE -DgroupId=com.group.module -DartifactId=zylibuiandroid -Dversion=1.0 -Dpackaging=aar -DpomFile=pom.xml
